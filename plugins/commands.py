@@ -209,7 +209,7 @@ async def bot_status(client,message):
     )
 
 
-@trojanz.on_message(filters.command('start') & filters.private)
+@Cmkmedia.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     await message.reply_text(
         text=Script.START_MSG.format(message.from_user.mention),
@@ -235,7 +235,7 @@ async def start(client, message):
             pass
 
 
-@trojanz.on_message(filters.command('help') & filters.private)
+@Cmkmedia.on_message(filters.command('help') & filters.private)
 async def help(client, message):
     await message.reply_text(
         text=Script.HELP_MSG,
@@ -247,8 +247,8 @@ async def help(client, message):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/TC_BOTZ),
+                    InlineKeyboardButton("Support Group", url="https://t.me/CMKMEDIA")
                 ]
             ]
         ),
@@ -256,7 +256,7 @@ async def help(client, message):
     )
 
 
-@trojanz.on_message(filters.command('about') & filters.private)
+@TC_BOTZ.on_message(filters.command('about') & filters.private)
 async def about(client, message):
     await message.reply_text(
         text=Script.ABOUT_MSG,
