@@ -1,7 +1,7 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
-
+    START_MSG = """<b>Hy join our channel @TC_ BOTZ and press /restart {},
+RESTART_MSG = """ <b> Hy iam unlimited filter bot
 I'm an advanced filter bot with many capabilities!
 There is no practical limits for my filtering capacity :)
 
@@ -18,7 +18,7 @@ See <i>/help</i> for commands and more details.</b>
 /start - Check if I'm alive!
 /help - Command help
 /about - Something about me!
-
+/group - TC_BOTZ
 
 <b>Filter Commands;</b>
 
